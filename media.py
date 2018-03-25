@@ -10,10 +10,10 @@ class Movie():
     def __init__(self, movie_title, movie_poster_url, movie_trailer_url, movie_id):
         '''Inits class movie '''
         self.title = movie_title
-        self.poster_image_url = movie_poster_url #link to an image file
-        self.trailer_youtube_url = movie_trailer_url #link to a trailer on youtube
-        self.movie_id = movie_id #added so that a name can be dynamically assigned
-                                 #when pulled from the  csv file
+        self.poster_image_url = movie_poster_url  #link to an image file
+        self.trailer_youtube_url = movie_trailer_url  #link to a trailer on youtube
+        self.movie_id = movie_id  #added so that a name can be dynamically assigned
+                                  #when pulled from the  csv file
 
     def __str__(self):
         name_string = "Movie Object with information about {}".format(self.title)

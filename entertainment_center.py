@@ -20,7 +20,7 @@ with open('Movies_CSV.csv') as  csvfile:
         title = str(movie['Movie Title'])
         poster = str(movie['Movie Poster URL'])
         trailer = str(movie['Movie Trailer URL'])
-        movie_id = str(movie['Movie ID']) #name as appears in movies_list
+        movie_id = str(movie['Movie ID'])  #name as appears in movies_list
 
         movies_list.append(media.Movie(title, poster, trailer, movie_id))
 
