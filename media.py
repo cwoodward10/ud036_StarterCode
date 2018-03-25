@@ -10,7 +10,7 @@ class Movie():
     def __init__(self, movie_title, movie_poster_url, movie_trailer_url, movie_id):
         self.title = movie_title
         self.poster_image_url = movie_poster_url #link to an image file
-        self.trailer_youtube_id = movie_trailer_url #link to a trailer on youtube
+        self.trailer_youtube_url = movie_trailer_url #link to a trailer on youtube
         self.movie_id = movie_id
 
     #give this a readable name so people know what it is if its printed
