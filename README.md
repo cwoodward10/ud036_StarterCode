@@ -10,3 +10,9 @@ Before use:
 
 1) Add any movies, and accompanying poster and trailer locations, to the csv file
 2) Run the entertainment_center.py file
+  -through IDLE by just double clicking the file
+  -through command line:
+    ```
+    cd ud036_StarterCode
+    python entertainment_center.py
+    ```
